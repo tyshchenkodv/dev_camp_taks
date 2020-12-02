@@ -13,11 +13,13 @@ function div(a, b) {
 function mult(a, b) {
     return a * b;
 }
+function mod(a, b) {
+    return a % b;
+}
 
 function pow(a, b) {
     return a ** b;
 }
-
 
 module.exports = {
     add,
@@ -25,4 +27,5 @@ module.exports = {
     div,
     mult,
     pow,
+    mod,
 };
